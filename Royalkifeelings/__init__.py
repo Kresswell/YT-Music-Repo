@@ -24,8 +24,8 @@ user = PyTgCalls(
 
 call_py = PyTgCalls(Royalboyamit, overload_quiet_mode=True)
 
-OWNER_NAME = "Royal_boy_amit"
-F_OWNER = OWNER_ID[0]
+OWNER_NAME = "EscaliBud"
+F_OWNER = OWNER_ID[1108915205]
 
 with Client("Royalkifeelings", API_ID, API_HASH, bot_token=BOT_TOKEN) as app:
     x = app.get_me()
