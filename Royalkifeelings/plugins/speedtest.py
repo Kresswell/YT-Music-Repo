@@ -11,13 +11,13 @@ def testspeed(m):
     try:
         test = speedtest.Speedtest()
         test.get_best_server()
-        m = m.edit("🤣 sᴇʀᴠᴇʀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴜɴ 😁")
+        m = m.edit("🤣 server is at its best 😁")
         test.download()
-        m = m.edit("🥲 ʀᴜᴋ ᴄʜᴜᴛɪʏᴇ ᴅᴏᴡɴʟᴏᴀᴅ ʜᴏ ʀᴀʜᴀ 🙃")
+        m = m.edit("🥲 Just enjoy and leave me alone 🙃")
         test.upload()
         test.results.share()
         result = test.results.dict()
-        m = m.edit("🤪 ᴘᴀᴘᴀ ʙᴏʟ ʙᴇᴛᴀ ʜᴏ ɢᴀʏᴀ 😎")
+        m = m.edit("🤪 Call me Daddy Kress 😎")
     except Exception as e:
         return m.edit(e)
     return result
