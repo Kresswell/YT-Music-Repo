@@ -21,7 +21,7 @@ from pytgcalls.types.input_stream.quality import (
 from youtubesearchpython import VideosSearch
 from Royalkifeelings.handler.thumbnail import play_thumb, queue_thumb
 
-IMAGE_THUMBNAIL = "https://te.legra.ph/file/ead56db6ded46455bcb2f.jpg"
+IMAGE_THUMBNAIL = "https://i.imgur.com/C4d37YA.png"
 
 def ytsearch(query: str):
     try:
@@ -246,7 +246,7 @@ async def vplay(c: Royalboyamit, m: Message):
     else:
         if len(m.command) < 2:
             await m.reply_photo(
-                     photo=f"https://graph.org/file/b54b89d9d4f7efe4fbd75.jpg",
+                     photo=f"https://i.imgur.com/C4d37YA.png",
                      caption=f"**𝐔𝐬ᴀɢᴇ: /play 🤖 𝐆𝐢𝐯𝐞 🙃 𝐒𝐨𝐦𝐞 💿 𝐐𝐮𝐞𝐫𝐲 😍 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲 🥀 𝐕𝐢𝐝𝐞𝐨 🌸 𝐒𝐨𝐧𝐠 🍁 𝐍𝐚𝐦𝐞...**", 
          ) 
         else:
